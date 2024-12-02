@@ -1,4 +1,4 @@
-import { ClasseConcretaExtendida } from 'ClasseConcretaExtendida';
+import { EditorPDF, EditorDOCX, EditorXLSX, EditorTXT } from './ClasseConcretaExtendida';
 
 function testarEditor() {
     const editores = [
