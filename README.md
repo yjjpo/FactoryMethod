@@ -20,4 +20,5 @@ Testa o sistema criando editores e manipulando os arquivos de forma automática.
 
 # Tecnologias Usadas:
 TypeScript para implementação das classes e interfaces.
+
 Node.js para execução do código.
