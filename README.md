@@ -18,6 +18,9 @@ Implementam a classe abstrata EditorArquivo e definem o método criarArquivo() p
 Arquivo Principal (main.ts):
 Testa o sistema criando editores e manipulando os arquivos de forma automática.
 
+# Como Rodar
+Basta digitar no TERMINAL do CodeSpace: node main.js
+
 # Tecnologias Usadas:
 TypeScript para implementação das classes e interfaces.
 
