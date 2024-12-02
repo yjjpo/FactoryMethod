@@ -20,3 +20,4 @@ Testa o sistema criando editores e manipulando os arquivos de forma automática.
 
 # Tecnologias Usadas:
 TypeScript.
+JavaScript.
