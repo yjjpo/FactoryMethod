@@ -1,3 +1,5 @@
+import { Arquivo } from '../arquivos/Arquivo';
+
 abstract class EditorArquivo {
     abstract criarArquivo(): Arquivo;
 
