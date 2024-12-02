@@ -39,3 +39,4 @@ class ArquivoTXT implements Arquivo {
         console.log("Salvando arquivo TXT...");
     }
 }
+export { ArquivoPDF, ArquivoDOCX, ArquivoXLSX, ArquivoTXT };
