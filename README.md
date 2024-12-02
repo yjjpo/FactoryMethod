@@ -25,13 +25,13 @@ TypeScript.
 1. Interface Arquivo
 A interface Arquivo define os métodos abrir() e salvar(), que todas as classes de tipos de arquivos devem implementar. Isso garante que cada tipo de arquivo terá os métodos necessários, com a implementação específica para cada tipo.
 
-2. Classes de Arquivos Concretas
+2. Classes Concretas
 Cada tipo de arquivo (como ArquivoPDF, ArquivoDOCX) implementa a interface Arquivo e define como os métodos abrir() e salvar() devem funcionar para aquele tipo de arquivo.
 
-3. Classe Abstrata EditorArquivo
+3. Classe Abstrata
 A classe abstrata EditorArquivo define a estrutura do editor de arquivos. O método gerenciarArquivo() cria um arquivo e chama seus métodos abrir() e salvar(). O método criarArquivo() é abstrato e será implementado nas subclasses.
 
-4. Classes Concretas de Editor
+4. Classes Concretas Extendidas
 As classes EditorPDF, EditorDOCX, etc., estendem EditorArquivo e implementam o método criarArquivo() para retornar o tipo de arquivo específico. Assim, o sistema pode criar e gerenciar diferentes tipos de arquivos sem precisar se preocupar com a implementação interna de cada um.
 
 5. Testando o Sistema
