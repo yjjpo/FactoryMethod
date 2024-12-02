@@ -1,3 +1,4 @@
+import { Arquivo } from './Arquivo';
 import { EditorArquivo } from './ClasseAbstrata';
 import { ArquivoPDF, ArquivoDOCX, ArquivoXLSX, ArquivoTXT } from './ClassesConcretas';
 
