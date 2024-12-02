@@ -1,5 +1,5 @@
-import { ClasseConcreta } from 'ClasseConcreta';
-import { Arquivo } from 'Arquivo';
+import { EditorArquivo } from './ClasseAbstrata';
+import { ArquivoPDF, ArquivoDOCX, ArquivoXLSX, ArquivoTXT } from './ClassesConcretas';
 
 class EditorPDF extends EditorArquivo {
     criarArquivo(): Arquivo {
