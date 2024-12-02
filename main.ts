@@ -1,4 +1,3 @@
-// src/main.ts
 import { ClasseConcretaExtendida } from 'ClasseConcretaExtendida';
 
 function testarEditor() {
