@@ -24,3 +24,4 @@ class EditorTXT extends EditorArquivo {
         return new ArquivoTXT();
     }
 }
+export { EditorPDF, EditorDOCX, EditorXLSX, EditorTXT };
