@@ -1,4 +1,4 @@
-# FactoryMethod
+# Factory Method
 Este sistema simula a abertura e o salvamento de arquivos de diferentes tipos (PDF, DOCX, XLSX, TXT) aplicando o padrão de projeto Factory Method. O padrão é utilizado para delegar a criação dos objetos de cada tipo de arquivo a classes especializadas, mantendo a flexibilidade e a escalabilidade do código.
 
 # Componentes principais:
@@ -19,5 +19,5 @@ Arquivo Principal (main.ts):
 Testa o sistema criando editores e manipulando os arquivos de forma automática.
 
 # Tecnologias Usadas:
-TypeScript.
-JavaScript.
+TypeScript para implementação das classes e interfaces.
+Node.js para execução do código.
