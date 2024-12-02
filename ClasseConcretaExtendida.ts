@@ -1,4 +1,4 @@
-import { Criador } from 'Criador';
+import { ClasseConcreta } from 'ClasseConcreta';
 import { Arquivo } from 'Arquivo';
 
 class EditorPDF extends EditorArquivo {
