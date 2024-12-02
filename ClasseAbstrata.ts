@@ -1,4 +1,4 @@
-import { Arquivo } from 'Arquivo';
+import { Arquivo } from './Arquivo';
 
 abstract class EditorArquivo {
     abstract criarArquivo(): Arquivo;
