@@ -1,3 +1,5 @@
+import { Arquivo } from './Arquivo';
+
 class ArquivoPDF implements Arquivo {
     abrir(): void {
         console.log("Abrindo arquivo PDF...");
