@@ -1,3 +1,6 @@
+import { Criador } from 'Criador';
+import { Arquivo } from 'Arquivo';
+
 class EditorPDF extends EditorArquivo {
     criarArquivo(): Arquivo {
         return new ArquivoPDF();
